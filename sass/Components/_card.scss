@@ -1,0 +1,46 @@
+.card{
+    width: 23%;
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        margin-top: $mg-4;
+        font-size: $fs-2 + 0.25;
+        line-height: $lh-4;
+    }
+
+    p{
+        margin-top: $mg-0 - 0.25;
+        font-size: $fs-1;
+        line-height: $lh-2;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}
+.card2{
+    width: 31.5%;
+
+    img{
+        width: 100%;
+    }
+
+    h3{
+        margin-top: $mg-4;
+        font-size: $fs-2 + 0.25;
+        line-height: $lh-4;
+    }
+
+    p{
+        margin-top: $mg-0 - 0.25;
+        font-size: $fs-1;
+        line-height: $lh-2;
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}

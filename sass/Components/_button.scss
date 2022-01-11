@@ -1,0 +1,10 @@
+.btn--black{
+    width: $width-0;
+    height: $height-0;
+    transition: all 0.25s;
+
+    @include styleButton($cl-white-0, $cl-dark-0, $border-1, $fs-3, $fw-3);
+    &:hover{
+        @include hoverButton($cl-dark-0, $cl-white-1, $border-1);
+    }
+}

@@ -1,0 +1,6 @@
+.trendProducts{
+    .trendprocts__item{
+        @extend %displayFlex;
+        justify-content: space-between;
+    }
+}
